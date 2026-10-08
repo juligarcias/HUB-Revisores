@@ -1,0 +1,8 @@
+{
+  "name": "mcaa-workflow",
+  "version": "0.5.1",
+  "description": "Rituais de Git da equipe MCAA: abertura de frente (/iniciar-tarefa), fechamento com fragmento de changelog (/fechar-tarefa), compatibilizacao na main (/compatibilizar), convencoes de branch/versao e protocolo de resolucao de conflitos.",
+  "author": {
+    "name": "MCAA Arquitetos"
+  }
+}
