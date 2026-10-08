@@ -63,9 +63,13 @@ exclusiva do `/compatibilizar`. Esta frente nao sugere versao nem cria tag.
 2. Redigir a nota de entrega da frente (para o PR, se a equipe quiser revisao
    humana, ou para o quadro de obra do compatibilizador):
    - **O que** foi feito (resumo em 1-2 frases)
-   - **Por que** (o problema que motivou)
-   - **Como testar** (passos objetivos)
+   - **Por que** (o problema que motivou — o campo "Problema" do intent)
+   - **Como testar** (passos objetivos — o "Criterio de pronto" do intent,
+     item a item, com o que foi efetivamente rodado)
    - O fragmento de changelog criado
+   - O caminho do intent da frente (`intents/<branch-em-kebab>.md`), se houver.
+     Se algum item do criterio de pronto NAO foi atendido, dizer qual e por que:
+     a frente pode ser entregue com ressalva, nunca com silencio.
 3. PR e opcional (util quando a frente pede revisao de outra pessoa). Se o
    GitHub CLI (`gh`) estiver disponivel e o usuario quiser, criar com
    `gh pr create`. Quem mergeia, com ou sem PR, e o compatibilizador.

@@ -53,7 +53,7 @@ Aplicar estas convencoes em toda operacao de Git nos repositorios da equipe.
 
 ## Fluxo resumido
 
-1. `/iniciar-tarefa modulo tipo descricao` -> branch criado + plano aprovado
+1. `/iniciar-tarefa modulo tipo descricao` -> intent aprovado + branch criado + intent commitado em `intents/` + plano aprovado
 2. Trabalho com commits pequenos e frequentes
 3. `/fechar-tarefa` -> fragmento de changelog em `changelog.d/` + push do branch + nota de entrega (PR opcional)
 4. `/compatibilizar` (so no chat compatibilizador) -> merges na main + conflitos resolvidos + changelog consolidado + branches deletados + tag quando o ciclo do modulo fechar
